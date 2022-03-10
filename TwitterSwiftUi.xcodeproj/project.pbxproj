@@ -36,6 +36,7 @@
 		506A964727DAB773000A073C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 506A964627DAB773000A073C /* FirebaseFirestore */; };
 		506A964927DAB773000A073C /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 506A964827DAB773000A073C /* FirebaseFirestoreSwift-Beta */; };
 		506A964B27DAB773000A073C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 506A964A27DAB773000A073C /* FirebaseStorage */; };
+		506A964D27DABA8C000A073C /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A964C27DABA8C000A073C /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		506A963C27DAB19B000A073C /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
 		506A963F27DAB33B000A073C /* AuthenticationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHeaderView.swift; sourceTree = "<group>"; };
 		506A964127DAB679000A073C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		506A964C27DABA8C000A073C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +360,7 @@
 		506A963427DAAC2B000A073C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				506A964C27DABA8C000A073C /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				506A961827DA8A18000A073C /* TweetFilterViewModel.swift in Sources */,
 				506A960127DA3C3F000A073C /* FeedView.swift in Sources */,
 				506A964027DAB33B000A073C /* AuthenticationHeaderView.swift in Sources */,
+				506A964D27DABA8C000A073C /* AuthenticationViewModel.swift in Sources */,
 				506A962227DA9201000A073C /* SideMenuView.swift in Sources */,
 				506A95EB27DA3ADB000A073C /* TwitterSwiftUiApp.swift in Sources */,
 				506A960D27DA45B9000A073C /* ExploreView.swift in Sources */,
