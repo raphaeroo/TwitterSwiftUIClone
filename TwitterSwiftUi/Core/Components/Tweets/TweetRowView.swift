@@ -37,7 +37,8 @@ struct TweetRowView: View {
                         .multilineTextAlignment(.leading)
                 }
             }
-            .padding()
+            .padding(.horizontal)
+            .padding(.vertical, 5)
             // action buttons
             HStack {
                 Button {
