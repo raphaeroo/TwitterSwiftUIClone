@@ -38,6 +38,8 @@
 		506A964B27DAB773000A073C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 506A964A27DAB773000A073C /* FirebaseStorage */; };
 		506A964D27DABA8C000A073C /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A964C27DABA8C000A073C /* AuthenticationViewModel.swift */; };
 		506A965127DAC9F0000A073C /* PhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A965027DAC9F0000A073C /* PhotoSelectorView.swift */; };
+		506A965427DACDA1000A073C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A965327DACDA1000A073C /* ImagePicker.swift */; };
+		506A965627DAD4A6000A073C /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A965527DAD4A6000A073C /* ImageUploader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		506A964127DAB679000A073C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		506A964C27DABA8C000A073C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		506A965027DAC9F0000A073C /* PhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorView.swift; sourceTree = "<group>"; };
+		506A965327DACDA1000A073C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		506A965527DAD4A6000A073C /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		506A95E927DA3ADB000A073C /* TwitterSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				506A965227DACD96000A073C /* Utils */,
 				506A95FB27DA3BB8000A073C /* Extensions */,
 				506A95FA27DA3BB5000A073C /* Model */,
 				506A95F927DA3BB3000A073C /* Service */,
@@ -146,6 +151,7 @@
 		506A95F927DA3BB3000A073C /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				506A965527DAD4A6000A073C /* ImageUploader.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -376,6 +382,14 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		506A965227DACD96000A073C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				506A965327DACDA1000A073C /* ImagePicker.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -458,6 +472,7 @@
 			files = (
 				506A961227DA45EB000A073C /* MessagesView.swift in Sources */,
 				506A961627DA47B0000A073C /* ProfileView.swift in Sources */,
+				506A965427DACDA1000A073C /* ImagePicker.swift in Sources */,
 				506A95ED27DA3ADB000A073C /* ContentView.swift in Sources */,
 				506A960427DA3CEC000A073C /* TweetRowView.swift in Sources */,
 				506A963D27DAB19B000A073C /* CustomInputField.swift in Sources */,
@@ -471,6 +486,7 @@
 				506A962627DA921D000A073C /* SideMenuViewModel.swift in Sources */,
 				506A963127DAA1BB000A073C /* TextArea.swift in Sources */,
 				506A962A27DA9A29000A073C /* SideMenuOptionRowView.swift in Sources */,
+				506A965627DAD4A6000A073C /* ImageUploader.swift in Sources */,
 				506A963727DAAC44000A073C /* LoginView.swift in Sources */,
 				506A965127DAC9F0000A073C /* PhotoSelectorView.swift in Sources */,
 				506A963927DAAC50000A073C /* RegistrationView.swift in Sources */,
