@@ -37,6 +37,7 @@
 		506A964927DAB773000A073C /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 506A964827DAB773000A073C /* FirebaseFirestoreSwift-Beta */; };
 		506A964B27DAB773000A073C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 506A964A27DAB773000A073C /* FirebaseStorage */; };
 		506A964D27DABA8C000A073C /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A964C27DABA8C000A073C /* AuthenticationViewModel.swift */; };
+		506A965127DAC9F0000A073C /* PhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A965027DAC9F0000A073C /* PhotoSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		506A963F27DAB33B000A073C /* AuthenticationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHeaderView.swift; sourceTree = "<group>"; };
 		506A964127DAB679000A073C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		506A964C27DABA8C000A073C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		506A965027DAC9F0000A073C /* PhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +355,7 @@
 			children = (
 				506A963627DAAC44000A073C /* LoginView.swift */,
 				506A963827DAAC50000A073C /* RegistrationView.swift */,
+				506A965027DAC9F0000A073C /* PhotoSelectorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				506A963127DAA1BB000A073C /* TextArea.swift in Sources */,
 				506A962A27DA9A29000A073C /* SideMenuOptionRowView.swift in Sources */,
 				506A963727DAAC44000A073C /* LoginView.swift in Sources */,
+				506A965127DAC9F0000A073C /* PhotoSelectorView.swift in Sources */,
 				506A963927DAAC50000A073C /* RegistrationView.swift in Sources */,
 				506A962F27DAA0F4000A073C /* NewTweetView.swift in Sources */,
 				506A963B27DAAD6C000A073C /* RoundedShape.swift in Sources */,
